@@ -1,0 +1,17 @@
+.container {
+    background-color: #04ffff;
+    padding-bottom: 0;
+    border: 1px solid red;
+}
+
+.mice {
+    width: 50%;
+    float: right;
+    clear: left;
+}
+.left {
+    flex: 0 0 30%;
+}
+p {
+    margin: 0;
+}

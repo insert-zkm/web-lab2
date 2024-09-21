@@ -1,0 +1,13 @@
+
+aside {
+    width: 200px;
+    min-width: 200px;
+    background-color: var(--aside-color);
+}
+
+.left_content {
+    margin: 2px 7px;
+}
+.right_content {
+    margin: 2px 5px;
+}

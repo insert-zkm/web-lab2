@@ -1,0 +1,17 @@
+.right_column {
+    flex: 0 0 200px;
+}
+
+.left_column {
+    flex: 1 0 25%;
+    align-self: start;
+}
+.right_column, .left_column {
+    background-color: var(--aside-color);
+}
+
+.left_column_content, 
+.right_column_content, 
+.content_column {
+    margin: 2px 5px 15px 5px;
+}

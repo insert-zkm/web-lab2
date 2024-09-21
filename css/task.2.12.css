@@ -1,0 +1,24 @@
+.container {
+    padding-bottom: 0;
+    border: 1px solid red;
+    background-color: #04ffff;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.left {
+    background-color: #fee4c4;
+    height: min-content;
+    flex: 0 0 30%;
+}
+.content {
+    background-color: #a9a9a9;
+    flex: 0 0 70%;
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        flex: 0 0 80%;
+    }
+}
